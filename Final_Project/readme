@@ -1,0 +1,15 @@
+Run incptn_fcn_heatmap.py to see heat map.
+
+Run incptn_fcn_kitti.py to train with kitty dataset or incptn_fcn_bdd.py to train with bad dataset
+
+Setting variables in the code:
+
+SAVER_NAME = '16x16x16'		# define the kernel size of fcn model
+RESTORE_VAR = True			# restore save variables from last training		
+SAVE_VAR = False				# save training results this time
+TRAIN = False				# whether or not to train the model
+TRAIN_DIV = 1				# divide the training set into # part 
+
+RUN = True					# run the test or not
+
+TEST_ALL = False				# use test dataset or Images folder instead
